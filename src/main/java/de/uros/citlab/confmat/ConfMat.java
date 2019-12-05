@@ -28,4 +28,8 @@ public class ConfMat {
     public double[] getVector(int pos) {
         return matrix[pos];
     }
+
+    public int getLength() {
+        return matrix.length;
+    }
 }
