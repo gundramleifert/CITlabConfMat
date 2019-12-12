@@ -8,7 +8,7 @@ public class CharMap {
     private HashMap<Integer, String> map2 = new HashMap<>();
     int size = 1;
     public static final char NaC = '\u0000';
-    public static final Character Return = '⏎';
+    public static final char Return = '⏎';
 
     public CharMap() {
         map.put(NaC, 0);
